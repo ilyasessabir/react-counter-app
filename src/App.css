@@ -1,0 +1,33 @@
+body{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5DD9C1;
+}
+.container{
+  background-color: #ACFCD9;
+  padding: 2rem;
+  text-align: center;
+  border-radius: 0.4rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+button{
+  margin: 0 5px;
+  padding: 0.5rem 2rem;
+  border: #5DD9C1;
+  color: white;
+  background-color:#48b7a1 ;
+  border-radius: 0.4rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+button:active{
+  background-color:#369784 ;
+}
+
+h1{
+  font-size: 4rem;
+}
